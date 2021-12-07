@@ -1,4 +1,5 @@
-*{
+*
+{
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -7,51 +8,139 @@
 {
     --primary: #B5927F;
     --secondary: #E8DBD5;
+   
     
     --radius: 10px;
 }
 body
 {
     margin:0;
-    height: 100vh;
-    background-color: var(--secondary);
-
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .flex
 {
     display:flex;
-    flex-direction: column;
+    justify-content: space-between;
 
 }
-form
+.wrapper
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a
+{
+    color:rgb(17, 17, 17);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5
+{
+    margin:0;
+}
+/**********************HEADER*********************/
+header
+{
+    background-color: var(--primary);
+    padding: 20px 0;
+
+}
+header .search
 {
     width: 500px;
-    background-color: white;
-    padding: 70px;
-    border-radius: var(--radius);
-}
-form>*
-{
-    margin-bottom: 20px;
-    font-size: 1.1em;
-    padding: 4px 0;
-    border:none;
-    outline: none;
-    border-bottom: 1px solid var(--secondary);
 }
 
-form>input[type=submit]
+header nav a
 {
-    margin: 20px 0 0 0;
-    border-radius: var(--radius);
+    margin-left: 10px;
+}
+header nav a i
+{
+    margin-right: 6px;
+    font-size: 1.2em;
+}
+header nav a:hover
+{
+    border-bottom: 3px solid black;
+}
+/**********************MAIN*********************/
+main
+{
+    padding: 70px 0;
+}
+aside
+{
+    width:25%;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+}
+.container
+{
+   width: 50%;
+   margin: 0 20px;
+}
+.tweet
+{
+    background-color: var(--secondary);
+    padding: 15px;
+}
+.tweet> textarea
+{
+    width:100%;
+    margin: 10px 0;
+    padding: 10px;
+    border:none;
+    outline:none;
+    border-radius: 4px;
+}
+.tweet button
+{
+    padding: 6px 12px;
+    border:none;
+    outline:none;
+    border-radius: 4px;
     background-color: var(--primary);
-    cursor: pointer;
-    color:white;
     font-weight: bold;
-    padding: 8px;
+    cursor:pointer;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+}
+.paylasimlar 
+{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--secondary);
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+}
+.box
+{
+    background-color:white;
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.box .user_image img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: violet;
+}
+.content
+{
+    margin: 15px 0;
+    color:rgb(82, 81, 81);
+}
+.content_unten
+{
+   display:flex;
+   padding: 10px;
+   border-top: 1px solid var(--secondary); 
+}
+.content_unten div
+{
+    margin-right: 15px;
 }

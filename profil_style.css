@@ -1,0 +1,17 @@
+header
+{
+    margin-bottom:70px;
+}
+.profil
+{
+    background-color: var(--secondary);
+    padding: 20px;
+    margin-right: 20px;
+}
+.profil img
+{
+    width: 100px;
+    height:100px;
+    background-color: chocolate;
+    border-radius: 50%;
+}
