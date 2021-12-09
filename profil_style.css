@@ -1,17 +1,45 @@
-header
+.profile_container1
 {
-    margin-bottom:70px;
+    width:75%; 
+    
 }
-.profil
+.profile
 {
-    background-color: var(--secondary);
+    
+    background-color: var(--primary);
+    border-radius: var(--radius);
     padding: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
-.profil img
+.profile_img
 {
-    width: 100px;
-    height:100px;
-    background-color: chocolate;
+    width: 300px;
+    text-align:center;
+    margin-right: 20px;
+}
+.profile img
+{
+    width: 120px;
+    height:120px;
     border-radius: 50%;
+}
+.profile_info
+{
+    margin-top: 20px;
+}
+.profile_info .zahl span
+{
+    margin-right: 30px;
+}
+
+.profile_container1 .profile_container aside
+{
+    width:35%;
+    margin-right: 20px;
+}
+.profile_container1 .profile_container .paylasimlar
+{
+    width:65%;
+    margin-right: 20px;
 }

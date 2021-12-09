@@ -10,7 +10,6 @@
     --secondary: #F5FBFF;
     --accent: #63a9df;
    
-    
     --radius: 5px;
 }
 body
@@ -159,8 +158,10 @@ aside
     border-radius: var(--radius);
     padding: 15px;
 }
-.teilen{
+.teilen
+{
     text-align: right;
+    margin-bottom: 20px;
 }
 .teilen textarea
 {
@@ -186,7 +187,6 @@ aside
 }
 .paylasimlar 
 {
-    margin-top: 20px;
     background-color: white;
 }
 .user_image
