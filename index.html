@@ -11,17 +11,21 @@
 </head>
 <body>
     <header>
-        <div class="wrapper flex">
+        <div class="wrapper sp_btw">
             <div class="logo">LOGO</div>
-            <div class="search flex" >
+            <div class="search sp_btw" >
                 <input type="text" placeholder="Search">
-                <div class="isim"> <img src=""> Ogulsenem</div>
+                <i class="fal fa-search"></i>
             </div>
             <nav>
-                <a href=""><i class="far fa-home"></i>  Home   |</a>
-                <a href=""><i class="far fa-envelope"></i>Messages   |</a>
+                <a href=""><i class="far fa-home"></i>  Home </a>
+                <a href=""><i class="far fa-envelope"></i>Messages </a>
                 <a href=""><i class="far fa-bell"></i>Notification   </a>
-            </nav>            
+            </nav>  
+            <div class="user_image"> 
+                <img src="bild/woman.png"> 
+                <span>Ogulsenem</span> 
+            </div>          
         </div>
 
     </header>
@@ -29,22 +33,70 @@
     <main>
         <div class="wrapper flex">
             <aside>
-                <div>Tavsiyeler</div>
-                <div>Takit ettigi sayfalar</div>
-                <div>Gruplar / sayfalar</div>
+                <div class="abonnieren">
+                    <h4> Abonnieren</h4>
+                    <div class="user_image ">
+                        <img src="bild/woman.png" >
+                        <span>Username</span>
+                    </div>
+                    <div class="user_image ">
+                        <img src="bild/woman.png" >
+                        <span>Username</span>
+                    </div>
+                    <div class="user_image">
+                        <img src="bild/woman.png" >
+                        <span>Username</span>
+                    </div>
+                    <div class="show_more">
+                        <a href="">Show more</a>
+                    </div>
+                </div>
+                <div class="vorschlage">
+                    <h4> Vorschläge für dich</h4>
+                    <div class="user_image ">
+                        <img src="bild/woman.png" >
+                        <div>
+                            <b>Username</b> <br>
+                            <small> "bla bla bla" followed this</small>
+                        </div>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div class="user_image ">
+                        <img src="bild/woman.png" >
+                        <div>
+                            <b>Username</b> <br>
+                            <small> "bla bla bla" followed this</small>
+                        </div>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div class="user_image ">
+                        <img src="bild/woman.png" >
+                        <div>
+                            <b>Username</b> <br>
+                            <small> "bla bla bla" followed this</small>
+                        </div>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+
+                    <div class="show_more">
+                        <a href="">Show more</a>
+                    </div>
+                </div>
             </aside>
             <div class="container">
-                <div class="tweet">
-                    <h5>Bis shey paylash</h5>
-                    <textarea placeholder="Icerik yazisi..."></textarea>
-                    <button>Paylas</button>
+                <div class="teilen">
+                    <div class="user_image">
+                        <img src="bild/woman.png" >
+                        <textarea placeholder="Was machst du gerade, Ogulsenem ?"></textarea>
+                    </div>
+                    <button>Teilen</button>
                 </div>
 
                 <div class="paylasimlar">
-                    <h5>Paylasimlar</h5>
+                    <h4>Paylasimlar</h4>
                     <div class="box">
                         <div class="user_image">
-                            <img src="" >
+                            <img src="bild/woman.png" >
                             <span>Username</span>
                         </div>
                         <div class="content">
@@ -68,7 +120,8 @@
 
                     <div class="box">
                         <div class="user_image">
-                            <img src="" alt="">
+                            <img src="bild/woman.png" >
+                            <span>Username</span>
                         </div>
                         <div class="content">
                             „Lorem ipsum dolor sit amet, consectetur adipisici elit, 
@@ -76,14 +129,28 @@
                             sondern als Platzhalter im Layout verwendet wird, um einen 
                             Eindruck vom fertigen Dokument zu erhalten. 
                         </div>
+                        <div class="content_unten">
+                            <div class="like">
+                                <i class="far fa-heart"></i>
+                                <span>100</span>
+                            </div>
+                            <div class="comment">
+                                <i class="far fa-comment"></i>
+                                <span>150</span>
+                            </div>
+                        </div>
 
                     </div>
+
                 </div>
             </div>
             <aside>
-                <div>Reklam</div>
-                <div>Yaklasmakta olan etkinlik </div>
-                <div>Mesajlar / Chat</div>
+                <div class="trends">
+                    <h4>Trends</h4>
+                </div>
+                <div class="nachrichten">
+                   <button><i class="far fa-comments"></i> </button> 
+                </div>
             </aside>
         </div>
     </main>
